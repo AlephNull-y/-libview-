@@ -1,0 +1,32 @@
+# 系统与编辑器
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# LabVIEW 构建产物与临时文件
+*.lvproj
+*.lvlib
+*.aliases
+*.lvlps
+*.tmp
+*.bak
+
+# 归档与导出（源文件不入库，可用脚本重新生成）
+*.zip
+*.rar
+*.7z
+*.docx
+*.pdf
+
+# 本地环境与隐私
+.env
+*.local
+实地勘察-*/record/_evidence_frames/
+实地勘察-*/record/_photo_crops/
+*.mp4
